@@ -14,7 +14,7 @@
       <br>
       Between 2021 and 2025 the group took <strong>305,000 bookings</strong> worth <strong>€111.5 million</strong> in room revenue, plus <strong>€19.3 million</strong> in extras such as breakfast, restaurant, spa and parking. The data covers guests, bookings, prices shown on the website, competitor prices, reviews with text, extra charges, staffing, local events, marketing spend and four website A/B tests.<br>
       <br>
-      Working with the <strong>Revenue Management and Guest Experience teams</strong>, I built models to answer five questions. Which bookings will be cancelled? How many rooms will we sell each night? How sensitive are guests to price? Which website experiments worked? What makes guests happy, and who are our most valuable guests? These were the main areas of focus:
+      I built models to answer five questions. Which bookings will be cancelled? How many rooms will we sell each night? How sensitive are guests to price? Which website experiments worked? What makes guests happy, and who are our most valuable guests? These were the main areas of focus:
       <h3>Northstar Metrics</h3>
       <ul>
         <li><strong>Revenue:</strong> room revenue, RevPAR (revenue per available room), ADR (average daily rate) and occupancy.</li>
