@@ -1,0 +1,5 @@
+experiment_id,experiment_name,start_date,end_date,variants,unit,primary_metric
+EXP01,Checkout page redesign,2023-03-01,2023-04-30,"control, new_checkout",rate_quotes sessions (randomised per session),conversion rate
+EXP02,Price test (-8% / +8%),2024-05-01,2024-07-31,"control, price_minus_8, price_plus_8",rate_quotes sessions (randomised per session),conversion rate
+EXP03,Member price badge,2025-02-01,2025-03-31,"control, badge",rate_quotes sessions (randomised per session),conversion rate
+EXP04,Urgency message 'Only X rooms left',2025-09-01,2025-10-15,"control, urgency",rate_quotes sessions (randomised per session),conversion rate

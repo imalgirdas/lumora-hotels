@@ -1,0 +1,16 @@
+city_id,city,country,country_code,currency,region,city_type
+C01,Vilnius,Lithuania,LT,EUR,Baltics,Mixed
+C02,Riga,Latvia,LV,EUR,Baltics,Mixed
+C03,Tallinn,Estonia,EE,EUR,Baltics,Leisure
+C04,Warsaw,Poland,PL,PLN,Central Europe,Business
+C05,Krakow,Poland,PL,PLN,Central Europe,Leisure
+C06,Prague,Czechia,CZ,CZK,Central Europe,Leisure
+C07,Vienna,Austria,AT,EUR,Central Europe,Mixed
+C08,Berlin,Germany,DE,EUR,Western Europe,Mixed
+C09,Munich,Germany,DE,EUR,Western Europe,Business
+C10,Amsterdam,Netherlands,NL,EUR,Western Europe,Leisure
+C11,Copenhagen,Denmark,DK,DKK,Nordics,Mixed
+C12,Paris,France,FR,EUR,Western Europe,Leisure
+C13,Lisbon,Portugal,PT,EUR,Southern Europe,South
+C14,Barcelona,Spain,ES,EUR,Southern Europe,South
+C15,Jurmala,Latvia,LV,EUR,Baltics,Resort

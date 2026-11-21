@@ -1,0 +1,492 @@
+event_id,city_id,event_type,start_date,end_date,expected_attendance,status,event_name,impact_level
+EV0001,C06,Music festival,2021-01-13,2021-01-16,37200,Cancelled,Indie music festival,Medium
+EV0002,C06,Music festival,2021-02-01,2021-02-02,24500,Cancelled,Electronic music festival,High
+EV0003,C08,Conference,2021-02-08,2021-02-11,53100,Cancelled,Fintech conference,High
+EV0004,C01,Conference,2021-02-12,2021-02-13,19500,Cancelled,Logistics conference,High
+EV0005,C13,Sports match,2021-02-12,2021-02-12,9800,Cancelled,International sports match,Medium
+EV0006,C08,Concert,2021-02-18,2021-02-18,111600,Cancelled,Stadium concert,Very high
+EV0007,C04,Concert,2021-03-03,2021-03-04,70300,Cancelled,Arena concert,Very high
+EV0008,C03,Conference,2021-03-10,2021-03-12,8300,Cancelled,Energy conference,High
+EV0009,C04,Conference,2021-03-10,2021-03-11,46100,Cancelled,Energy conference,High
+EV0010,C11,Music festival,2021-03-11,2021-03-14,10800,Cancelled,Electronic music festival,High
+EV0011,C03,Conference,2021-03-20,2021-03-23,57700,Cancelled,Retail conference,High
+EV0012,C02,Sports match,2021-03-23,2021-03-23,56500,Cancelled,International sports match,High
+EV0013,C01,Sports match,2021-04-02,2021-04-02,12300,Cancelled,International sports match,High
+EV0014,C05,Conference,2021-04-03,2021-04-05,27300,Cancelled,Energy conference,Medium
+EV0015,C09,Marathon,2021-04-04,2021-04-04,10600,Cancelled,City marathon,Medium
+EV0016,C10,Sports match,2021-04-04,2021-04-04,89100,Cancelled,International sports match,High
+EV0017,C08,Conference,2021-04-06,2021-04-07,9200,Cancelled,Fintech conference,Medium
+EV0018,C03,Conference,2021-04-09,2021-04-11,11900,Held,Medical conference,Medium
+EV0019,C10,Sports match,2021-04-11,2021-04-11,9100,Cancelled,International sports match,Medium
+EV0020,C10,Trade fair,2021-04-12,2021-04-16,76600,Cancelled,Fashion trade fair,High
+EV0021,C02,Music festival,2021-04-16,2021-04-17,16500,Cancelled,Folk music festival,High
+EV0022,C11,Conference,2021-04-18,2021-04-21,23300,Cancelled,AI conference,High
+EV0023,C10,Concert,2021-04-20,2021-04-20,7600,Cancelled,Stadium concert,Medium
+EV0024,C09,Trade fair,2021-04-22,2021-04-26,32900,Held,Food trade fair,High
+EV0025,C12,Marathon,2021-04-23,2021-04-23,20800,Cancelled,City marathon,Medium
+EV0026,C04,Sports match,2021-04-26,2021-04-26,84500,Held,International sports match,High
+EV0027,C02,Conference,2021-05-02,2021-05-04,28100,Cancelled,Medical conference,Medium
+EV0028,C01,Sports match,2021-05-04,2021-05-04,23100,Cancelled,International sports match,High
+EV0029,C09,Sports match,2021-05-05,2021-05-05,24200,Cancelled,International sports match,High
+EV0030,C15,Concert,2021-05-06,2021-05-06,70100,Cancelled,Open-air concert,Very high
+EV0031,C15,Sports match,2021-05-07,2021-05-07,9600,Cancelled,International sports match,High
+EV0032,C13,Music festival,2021-05-16,2021-05-19,11400,Cancelled,Folk music festival,Medium
+EV0033,C10,Concert,2021-05-19,2021-05-20,42900,Cancelled,Stadium concert,High
+EV0034,C10,Conference,2021-05-21,2021-05-23,58700,Cancelled,Retail conference,High
+EV0035,C10,Conference,2021-05-21,2021-05-24,20800,Cancelled,Retail conference,High
+EV0036,C10,Marathon,2021-05-25,2021-05-25,15500,Cancelled,City marathon,Medium
+EV0037,C14,Conference,2021-05-25,2021-05-27,34800,Cancelled,Energy conference,High
+EV0038,C06,Conference,2021-05-26,2021-05-28,34600,Cancelled,AI conference,Medium
+EV0039,C11,Trade fair,2021-06-03,2021-06-07,49800,Cancelled,Food trade fair,Very high
+EV0040,C07,Trade fair,2021-06-07,2021-06-09,51400,Cancelled,Industrial trade fair,High
+EV0041,C02,Concert,2021-06-09,2021-06-10,78200,Held,Stadium concert,High
+EV0042,C09,Conference,2021-06-13,2021-06-15,15500,Cancelled,Energy conference,Medium
+EV0043,C09,Concert,2021-06-18,2021-06-18,37900,Cancelled,Arena concert,High
+EV0044,C05,Music festival,2021-06-19,2021-06-21,52700,Held,Jazz music festival,High
+EV0045,C15,Music festival,2021-06-21,2021-06-22,52500,Cancelled,Indie music festival,High
+EV0046,C06,Conference,2021-06-23,2021-06-24,11300,Held,AI conference,Medium
+EV0047,C13,Music festival,2021-07-07,2021-07-08,21800,Cancelled,Indie music festival,Medium
+EV0048,C14,Concert,2021-07-08,2021-07-09,39300,Cancelled,Arena concert,High
+EV0049,C14,Trade fair,2021-07-12,2021-07-15,14000,Held,Fashion trade fair,Medium
+EV0050,C02,Trade fair,2021-07-15,2021-07-17,40000,Held,Auto trade fair,Medium
+EV0051,C04,Concert,2021-07-25,2021-07-25,19000,Cancelled,Arena concert,Very high
+EV0052,C15,Music festival,2021-07-25,2021-07-28,26200,Cancelled,Electronic music festival,High
+EV0053,C15,Music festival,2021-08-01,2021-08-04,6100,Held,Summer music festival,Medium
+EV0054,C15,Music festival,2021-08-04,2021-08-06,22700,Held,Indie music festival,High
+EV0055,C13,Music festival,2021-08-05,2021-08-06,24700,Cancelled,Folk music festival,High
+EV0056,C15,Marathon,2021-08-12,2021-08-12,14200,Cancelled,City marathon,Medium
+EV0057,C04,Concert,2021-08-21,2021-08-21,21600,Held,Stadium concert,Medium
+EV0058,C10,Conference,2021-08-22,2021-08-24,38100,Held,AI conference,Medium
+EV0059,C13,Trade fair,2021-08-25,2021-08-29,26100,Cancelled,Food trade fair,High
+EV0060,C07,Concert,2021-09-06,2021-09-07,113000,Held,Arena concert,Very high
+EV0061,C04,Conference,2021-09-12,2021-09-15,42800,Held,Retail conference,Medium
+EV0062,C03,Trade fair,2021-09-15,2021-09-18,48900,Cancelled,Food trade fair,High
+EV0063,C13,Trade fair,2021-09-15,2021-09-19,37600,Cancelled,Food trade fair,High
+EV0064,C01,Trade fair,2021-09-17,2021-09-20,13200,Held,Industrial trade fair,High
+EV0065,C07,Music festival,2021-09-18,2021-09-21,20500,Cancelled,Electronic music festival,High
+EV0066,C02,Trade fair,2021-09-19,2021-09-22,33500,Held,Furniture trade fair,High
+EV0067,C08,Trade fair,2021-09-24,2021-09-28,46600,Held,Tourism trade fair,Very high
+EV0068,C02,Music festival,2021-09-26,2021-09-29,6300,Held,Electronic music festival,Medium
+EV0069,C06,Conference,2021-10-02,2021-10-03,23600,Cancelled,Medical conference,Medium
+EV0070,C09,Sports match,2021-10-02,2021-10-02,11000,Held,International sports match,Medium
+EV0071,C09,Conference,2021-10-05,2021-10-06,27700,Cancelled,AI conference,Medium
+EV0072,C01,Concert,2021-10-07,2021-10-07,86300,Held,Stadium concert,High
+EV0073,C01,Conference,2021-10-08,2021-10-10,34900,Held,Energy conference,Medium
+EV0074,C02,Sports match,2021-10-11,2021-10-11,40500,Held,International sports match,High
+EV0075,C04,Music festival,2021-10-13,2021-10-16,34300,Held,Indie music festival,Medium
+EV0076,C09,Concert,2021-10-14,2021-10-15,31900,Held,Arena concert,Medium
+EV0077,C08,Music festival,2021-10-17,2021-10-20,32900,Cancelled,Electronic music festival,Medium
+EV0078,C09,Music festival,2021-10-17,2021-10-20,13300,Cancelled,Summer music festival,Medium
+EV0079,C03,Conference,2021-10-21,2021-10-22,40800,Held,Fintech conference,High
+EV0080,C06,Music festival,2021-10-23,2021-10-24,55400,Held,Folk music festival,High
+EV0081,C12,Marathon,2021-10-23,2021-10-23,36000,Held,City marathon,Medium
+EV0082,C05,Concert,2021-10-24,2021-10-24,61900,Held,Open-air concert,Very high
+EV0083,C01,Concert,2021-11-02,2021-11-02,74100,Held,Arena concert,Very high
+EV0084,C14,Concert,2021-11-05,2021-11-05,44900,Cancelled,Arena concert,Medium
+EV0085,C07,Trade fair,2021-11-12,2021-11-15,20500,Cancelled,Fashion trade fair,Medium
+EV0086,C13,Trade fair,2021-11-12,2021-11-14,63900,Held,Food trade fair,High
+EV0087,C12,Music festival,2021-11-13,2021-11-15,55000,Cancelled,Indie music festival,High
+EV0088,C05,Sports match,2021-11-16,2021-11-16,50400,Cancelled,International sports match,High
+EV0089,C12,Concert,2021-11-20,2021-11-21,75700,Cancelled,Stadium concert,High
+EV0090,C01,Concert,2021-11-21,2021-11-21,27800,Cancelled,Arena concert,High
+EV0091,C05,Conference,2021-11-22,2021-11-24,32400,Held,Retail conference,High
+EV0092,C02,Conference,2021-11-27,2021-11-29,68000,Cancelled,Tech conference,High
+EV0093,C11,Sports match,2021-11-27,2021-11-27,46700,Cancelled,International sports match,High
+EV0094,C10,Sports match,2021-12-05,2021-12-05,49800,Held,International sports match,High
+EV0095,C14,Music festival,2021-12-08,2021-12-10,52200,Held,Electronic music festival,High
+EV0096,C04,Sports match,2021-12-09,2021-12-09,54900,Held,International sports match,Medium
+EV0097,C12,Music festival,2021-12-15,2021-12-16,16100,Cancelled,Indie music festival,High
+EV0098,C05,Conference,2021-12-18,2021-12-20,34300,Held,Medical conference,High
+EV0099,C09,Trade fair,2021-12-18,2021-12-21,67300,Cancelled,Fashion trade fair,High
+EV0100,C14,Trade fair,2021-12-19,2021-12-21,31000,Held,Furniture trade fair,High
+EV0101,C07,Concert,2021-12-20,2021-12-20,49200,Held,Open-air concert,Very high
+EV0102,C07,Sports match,2021-12-26,2021-12-26,38800,Cancelled,International sports match,High
+EV0103,C09,Conference,2022-01-05,2022-01-06,46700,Held,Fintech conference,High
+EV0104,C11,Marathon,2022-01-10,2022-01-11,51900,Held,City marathon,High
+EV0105,C13,Conference,2022-01-23,2022-01-26,47300,Held,Fintech conference,High
+EV0106,C04,Sports match,2022-01-24,2022-01-24,25000,Held,International sports match,Medium
+EV0107,C13,Trade fair,2022-02-18,2022-02-21,60300,Held,Fashion trade fair,High
+EV0108,C14,Concert,2022-02-21,2022-02-22,32900,Held,Stadium concert,High
+EV0109,C07,Music festival,2022-02-22,2022-02-25,57000,Held,Indie music festival,High
+EV0110,C13,Trade fair,2022-03-03,2022-03-06,27600,Held,Tourism trade fair,Very high
+EV0111,C07,Music festival,2022-03-13,2022-03-15,12200,Held,Folk music festival,Medium
+EV0112,C07,Conference,2022-03-24,2022-03-25,48200,Held,Medical conference,Medium
+EV0113,C05,Music festival,2022-03-27,2022-03-28,27400,Held,Indie music festival,High
+EV0114,C10,Concert,2022-04-01,2022-04-01,79700,Held,Stadium concert,Very high
+EV0115,C08,Conference,2022-04-05,2022-04-06,16800,Held,Logistics conference,High
+EV0116,C14,Concert,2022-04-05,2022-04-06,36500,Held,Arena concert,Very high
+EV0117,C03,Marathon,2022-04-06,2022-04-06,23000,Held,City marathon,Medium
+EV0118,C09,Music festival,2022-04-06,2022-04-07,25300,Held,Folk music festival,Medium
+EV0119,C02,Concert,2022-04-09,2022-04-10,104700,Held,Open-air concert,Very high
+EV0120,C06,Conference,2022-04-19,2022-04-22,53700,Held,Logistics conference,High
+EV0121,C09,Trade fair,2022-04-22,2022-04-25,23600,Held,Food trade fair,High
+EV0122,C07,Sports match,2022-04-24,2022-04-24,54300,Held,International sports match,High
+EV0123,C07,Concert,2022-04-25,2022-04-26,60300,Held,Stadium concert,High
+EV0124,C12,Trade fair,2022-04-25,2022-04-28,46700,Held,Furniture trade fair,High
+EV0125,C06,Music festival,2022-05-01,2022-05-03,64100,Held,Summer music festival,High
+EV0126,C08,Concert,2022-05-01,2022-05-01,12600,Held,Stadium concert,Very high
+EV0127,C01,Marathon,2022-05-02,2022-05-02,46600,Held,City marathon,Medium
+EV0128,C09,Conference,2022-05-06,2022-05-07,4800,Held,Logistics conference,Medium
+EV0129,C02,Concert,2022-05-10,2022-05-10,38500,Held,Open-air concert,High
+EV0130,C03,Conference,2022-05-10,2022-05-12,21000,Held,AI conference,Medium
+EV0131,C13,Conference,2022-05-11,2022-05-12,24000,Held,Tech conference,High
+EV0132,C08,Conference,2022-05-14,2022-05-15,36700,Held,Fintech conference,High
+EV0133,C01,Sports match,2022-05-20,2022-05-20,55200,Held,International sports match,High
+EV0134,C09,Music festival,2022-05-20,2022-05-21,51900,Held,Folk music festival,High
+EV0135,C12,Marathon,2022-05-20,2022-05-21,25800,Held,City marathon,Medium
+EV0136,C05,Conference,2022-05-21,2022-05-22,28700,Held,Retail conference,High
+EV0137,C04,Trade fair,2022-05-26,2022-05-30,36200,Held,Furniture trade fair,Very high
+EV0138,C07,Conference,2022-06-01,2022-06-03,38800,Held,Medical conference,High
+EV0139,C14,Trade fair,2022-06-01,2022-06-03,24400,Held,Tourism trade fair,Medium
+EV0140,C04,Marathon,2022-06-07,2022-06-08,26800,Held,City marathon,Medium
+EV0141,C07,Conference,2022-06-07,2022-06-08,38600,Held,Retail conference,Medium
+EV0142,C07,Trade fair,2022-06-07,2022-06-10,64600,Held,Industrial trade fair,High
+EV0143,C03,Concert,2022-06-09,2022-06-09,41500,Held,Stadium concert,Very high
+EV0144,C01,Conference,2022-06-10,2022-06-11,31700,Held,Medical conference,Medium
+EV0145,C15,Music festival,2022-06-10,2022-06-13,64000,Held,Summer music festival,High
+EV0146,C14,Trade fair,2022-06-19,2022-06-21,30300,Held,Food trade fair,High
+EV0147,C09,Sports match,2022-06-20,2022-06-20,30200,Held,International sports match,High
+EV0148,C12,Conference,2022-06-20,2022-06-21,25700,Held,Logistics conference,Medium
+EV0149,C09,Conference,2022-06-21,2022-06-24,69100,Held,AI conference,High
+EV0150,C08,Trade fair,2022-06-22,2022-06-24,26300,Held,Tourism trade fair,High
+EV0151,C05,Concert,2022-06-25,2022-06-25,50400,Held,Open-air concert,Medium
+EV0152,C14,Music festival,2022-07-01,2022-07-03,32900,Held,Indie music festival,High
+EV0153,C06,Concert,2022-07-03,2022-07-04,78100,Held,Arena concert,Very high
+EV0154,C05,Concert,2022-07-06,2022-07-07,32900,Held,Arena concert,High
+EV0155,C13,Concert,2022-07-11,2022-07-12,67000,Held,Stadium concert,High
+EV0156,C15,Concert,2022-07-11,2022-07-12,32000,Held,Open-air concert,High
+EV0157,C05,Concert,2022-07-12,2022-07-12,56300,Held,Open-air concert,Very high
+EV0158,C07,Music festival,2022-07-18,2022-07-19,16600,Held,Jazz music festival,Medium
+EV0159,C15,Music festival,2022-07-24,2022-07-27,20600,Held,Summer music festival,Medium
+EV0160,C11,Trade fair,2022-08-09,2022-08-12,47600,Held,Furniture trade fair,High
+EV0161,C09,Conference,2022-08-13,2022-08-16,63000,Held,Fintech conference,High
+EV0162,C01,Music festival,2022-08-14,2022-08-16,50300,Held,Summer music festival,Medium
+EV0163,C15,Concert,2022-08-24,2022-08-25,12500,Held,Stadium concert,High
+EV0164,C04,Trade fair,2022-08-27,2022-08-30,11600,Held,Furniture trade fair,High
+EV0165,C12,Conference,2022-09-01,2022-09-04,48600,Held,Tech conference,High
+EV0166,C12,Conference,2022-09-04,2022-09-07,10400,Held,Retail conference,High
+EV0167,C12,Concert,2022-09-05,2022-09-05,15800,Held,Stadium concert,High
+EV0168,C12,Sports match,2022-09-07,2022-09-07,40600,Held,International sports match,High
+EV0169,C13,Music festival,2022-09-09,2022-09-12,39100,Held,Folk music festival,High
+EV0170,C04,Music festival,2022-09-10,2022-09-12,9600,Held,Indie music festival,Medium
+EV0171,C06,Music festival,2022-09-10,2022-09-13,37300,Held,Electronic music festival,Medium
+EV0172,C10,Music festival,2022-09-10,2022-09-13,60500,Held,Summer music festival,High
+EV0173,C01,Conference,2022-09-11,2022-09-12,26700,Held,Medical conference,Medium
+EV0174,C12,Trade fair,2022-09-12,2022-09-14,52200,Held,Fashion trade fair,High
+EV0175,C03,Conference,2022-09-15,2022-09-17,52600,Held,Tech conference,High
+EV0176,C10,Conference,2022-09-15,2022-09-16,20400,Held,Tech conference,High
+EV0177,C08,Conference,2022-09-22,2022-09-23,19000,Held,Logistics conference,High
+EV0178,C04,Concert,2022-09-25,2022-09-26,48400,Held,Open-air concert,Medium
+EV0179,C09,Sports match,2022-09-25,2022-09-25,27100,Held,International sports match,High
+EV0180,C11,Conference,2022-09-27,2022-09-29,32900,Held,Medical conference,Medium
+EV0181,C13,Sports match,2022-10-09,2022-10-09,10500,Held,International sports match,Medium
+EV0182,C06,Concert,2022-10-10,2022-10-11,29200,Held,Open-air concert,High
+EV0183,C03,Marathon,2022-10-17,2022-10-18,9700,Held,City marathon,Medium
+EV0184,C07,Concert,2022-10-17,2022-10-18,24200,Held,Open-air concert,Medium
+EV0185,C10,Conference,2022-10-19,2022-10-22,58500,Held,Energy conference,High
+EV0186,C12,Conference,2022-10-19,2022-10-21,33000,Held,Medical conference,High
+EV0187,C05,Conference,2022-10-22,2022-10-25,14700,Held,Energy conference,Medium
+EV0188,C08,Music festival,2022-10-25,2022-10-28,13800,Held,Indie music festival,Medium
+EV0189,C04,Sports match,2022-10-27,2022-10-27,40900,Held,International sports match,High
+EV0190,C04,Music festival,2022-10-27,2022-10-28,49400,Held,Electronic music festival,High
+EV0191,C12,Trade fair,2022-11-15,2022-11-19,22200,Held,Tourism trade fair,High
+EV0192,C11,Concert,2022-11-20,2022-11-20,71700,Held,Arena concert,Very high
+EV0193,C03,Conference,2022-11-21,2022-11-22,30300,Held,Energy conference,High
+EV0194,C09,Conference,2022-11-22,2022-11-23,13600,Held,Logistics conference,Medium
+EV0195,C09,Conference,2022-11-22,2022-11-24,42600,Held,Medical conference,Medium
+EV0196,C08,Concert,2022-11-27,2022-11-27,62300,Held,Arena concert,High
+EV0197,C14,Conference,2022-12-05,2022-12-07,17800,Held,Retail conference,High
+EV0198,C11,Sports match,2022-12-08,2022-12-08,30000,Held,International sports match,High
+EV0199,C05,Concert,2022-12-09,2022-12-10,7400,Held,Open-air concert,Medium
+EV0200,C13,Conference,2022-12-11,2022-12-13,17400,Held,Retail conference,Medium
+EV0201,C01,Sports match,2022-12-16,2022-12-16,22600,Held,International sports match,High
+EV0202,C07,Marathon,2022-12-16,2022-12-17,27200,Held,City marathon,Medium
+EV0203,C09,Marathon,2022-12-17,2022-12-17,37800,Held,City marathon,High
+EV0204,C14,Marathon,2022-12-17,2022-12-17,21300,Held,City marathon,Medium
+EV0205,C14,Trade fair,2022-12-17,2022-12-21,12900,Held,Furniture trade fair,Medium
+EV0206,C03,Music festival,2022-12-19,2022-12-21,35400,Held,Summer music festival,High
+EV0207,C04,Concert,2022-12-20,2022-12-20,89700,Held,Arena concert,Very high
+EV0208,C07,Conference,2022-12-20,2022-12-22,45400,Held,Fintech conference,Medium
+EV0209,C06,Concert,2022-12-24,2022-12-25,66300,Held,Stadium concert,High
+EV0210,C03,Conference,2022-12-26,2022-12-27,49300,Held,Logistics conference,High
+EV0211,C13,Sports match,2023-01-16,2023-01-16,31600,Held,International sports match,Medium
+EV0212,C06,Conference,2023-02-01,2023-02-02,41900,Held,Fintech conference,Medium
+EV0213,C09,Trade fair,2023-02-01,2023-02-03,59700,Held,Food trade fair,High
+EV0214,C02,Music festival,2023-02-06,2023-02-08,16100,Held,Electronic music festival,Medium
+EV0215,C04,Sports match,2023-02-06,2023-02-06,69400,Held,International sports match,High
+EV0216,C07,Concert,2023-02-08,2023-02-08,90300,Held,Open-air concert,Very high
+EV0217,C14,Marathon,2023-02-12,2023-02-13,5200,Held,City marathon,Medium
+EV0218,C07,Marathon,2023-02-13,2023-02-13,15100,Held,City marathon,Medium
+EV0219,C11,Conference,2023-02-26,2023-03-01,75800,Held,Tech conference,High
+EV0220,C03,Sports match,2023-03-01,2023-03-01,54900,Held,International sports match,High
+EV0221,C14,Concert,2023-03-10,2023-03-11,72600,Held,Arena concert,High
+EV0222,C12,Conference,2023-03-14,2023-03-17,8600,Held,Logistics conference,Medium
+EV0223,C05,Concert,2023-03-16,2023-03-17,86800,Held,Open-air concert,Very high
+EV0224,C12,Music festival,2023-03-17,2023-03-19,18600,Held,Summer music festival,Medium
+EV0225,C10,Conference,2023-03-23,2023-03-26,50000,Held,AI conference,High
+EV0226,C10,Conference,2023-03-26,2023-03-29,37300,Held,Medical conference,High
+EV0227,C12,Sports match,2023-04-03,2023-04-03,59700,Held,International sports match,High
+EV0228,C13,Trade fair,2023-04-04,2023-04-07,21700,Held,Food trade fair,Medium
+EV0229,C14,Trade fair,2023-04-06,2023-04-09,63500,Held,Furniture trade fair,High
+EV0230,C03,Music festival,2023-04-09,2023-04-11,48100,Held,Folk music festival,Medium
+EV0231,C11,Conference,2023-04-09,2023-04-11,11500,Held,Medical conference,Medium
+EV0232,C13,Sports match,2023-04-15,2023-04-15,75500,Held,International sports match,High
+EV0233,C14,Concert,2023-04-16,2023-04-17,39100,Held,Open-air concert,Very high
+EV0234,C02,Trade fair,2023-04-23,2023-04-26,25800,Held,Tourism trade fair,Medium
+EV0235,C01,Conference,2023-04-24,2023-04-27,23400,Held,Energy conference,High
+EV0236,C03,Trade fair,2023-04-26,2023-04-28,12200,Held,Fashion trade fair,Medium
+EV0237,C07,Trade fair,2023-05-03,2023-05-05,19100,Held,Furniture trade fair,High
+EV0238,C14,Trade fair,2023-05-03,2023-05-05,25700,Held,Fashion trade fair,High
+EV0239,C14,Marathon,2023-05-06,2023-05-06,53800,Held,City marathon,High
+EV0240,C03,Sports match,2023-05-07,2023-05-07,40800,Held,International sports match,Medium
+EV0241,C09,Music festival,2023-05-09,2023-05-10,15300,Held,Folk music festival,Medium
+EV0242,C12,Concert,2023-05-10,2023-05-11,48300,Held,Open-air concert,Very high
+EV0243,C07,Music festival,2023-05-13,2023-05-16,6900,Held,Electronic music festival,Medium
+EV0244,C01,Music festival,2023-05-19,2023-05-21,14400,Held,Folk music festival,Medium
+EV0245,C06,Concert,2023-06-03,2023-06-03,41700,Held,Stadium concert,High
+EV0246,C02,Music festival,2023-06-05,2023-06-06,22700,Held,Summer music festival,High
+EV0247,C09,Music festival,2023-06-05,2023-06-06,22800,Held,Summer music festival,Medium
+EV0248,C11,Sports match,2023-06-16,2023-06-16,33000,Held,International sports match,Medium
+EV0249,C14,Marathon,2023-06-16,2023-06-16,14300,Held,City marathon,Medium
+EV0250,C15,Concert,2023-06-16,2023-06-17,96100,Held,Open-air concert,Very high
+EV0251,C08,Music festival,2023-06-18,2023-06-19,56800,Held,Jazz music festival,High
+EV0252,C14,Music festival,2023-06-19,2023-06-21,15000,Held,Summer music festival,Medium
+EV0253,C02,Music festival,2023-07-01,2023-07-09,400000,Held,Summer music festival,High
+EV0254,C03,Trade fair,2023-07-03,2023-07-07,56500,Held,Industrial trade fair,High
+EV0255,C10,Music festival,2023-07-05,2023-07-08,24200,Held,Electronic music festival,Medium
+EV0256,C02,Marathon,2023-07-07,2023-07-08,37200,Held,City marathon,Medium
+EV0257,C09,Music festival,2023-07-10,2023-07-11,63000,Held,Jazz music festival,High
+EV0258,C09,Concert,2023-07-11,2023-07-11,31300,Held,Stadium concert,High
+EV0259,C04,Music festival,2023-07-16,2023-07-17,44300,Held,Folk music festival,High
+EV0260,C13,Conference,2023-07-23,2023-07-26,44700,Held,Retail conference,Medium
+EV0261,C15,Concert,2023-08-08,2023-08-09,118500,Held,Open-air concert,Very high
+EV0262,C06,Concert,2023-08-11,2023-08-12,16400,Held,Arena concert,High
+EV0263,C09,Conference,2023-08-19,2023-08-22,27200,Held,Logistics conference,Medium
+EV0264,C03,Conference,2023-08-22,2023-08-23,44200,Held,Medical conference,High
+EV0265,C04,Marathon,2023-08-27,2023-08-28,47500,Held,City marathon,High
+EV0266,C06,Conference,2023-08-27,2023-08-30,21900,Held,Fintech conference,High
+EV0267,C12,Conference,2023-09-01,2023-09-04,71200,Held,Retail conference,High
+EV0268,C08,Conference,2023-09-03,2023-09-05,42400,Held,Retail conference,Medium
+EV0269,C06,Concert,2023-09-08,2023-09-08,19000,Held,Stadium concert,Very high
+EV0270,C07,Conference,2023-09-08,2023-09-11,52000,Held,Medical conference,High
+EV0271,C03,Marathon,2023-09-12,2023-09-12,28000,Held,City marathon,Medium
+EV0272,C14,Concert,2023-09-15,2023-09-15,105700,Held,Stadium concert,Very high
+EV0273,C02,Sports match,2023-09-16,2023-09-16,34600,Held,International sports match,High
+EV0274,C04,Music festival,2023-09-16,2023-09-19,18200,Held,Folk music festival,Medium
+EV0275,C09,Trade fair,2023-09-16,2023-09-18,67000,Held,Auto trade fair,High
+EV0276,C02,Marathon,2023-09-18,2023-09-19,14500,Held,City marathon,Medium
+EV0277,C01,Trade fair,2023-09-20,2023-09-23,51700,Held,Industrial trade fair,High
+EV0278,C07,Music festival,2023-09-24,2023-09-25,53200,Held,Summer music festival,Medium
+EV0279,C07,Sports match,2023-09-24,2023-09-24,9500,Held,International sports match,Medium
+EV0280,C01,Music festival,2023-09-25,2023-09-27,20600,Held,Jazz music festival,Medium
+EV0281,C08,Concert,2023-09-26,2023-09-27,113900,Held,Arena concert,Very high
+EV0282,C05,Sports match,2023-09-27,2023-09-27,16500,Held,International sports match,Medium
+EV0283,C10,Music festival,2023-10-01,2023-10-03,54700,Held,Folk music festival,High
+EV0284,C10,Music festival,2023-10-04,2023-10-06,40500,Held,Electronic music festival,Medium
+EV0285,C11,Concert,2023-10-05,2023-10-05,8500,Held,Arena concert,High
+EV0286,C04,Music festival,2023-10-08,2023-10-10,44700,Held,Electronic music festival,High
+EV0287,C03,Sports match,2023-10-11,2023-10-11,45600,Held,International sports match,High
+EV0288,C09,Music festival,2023-10-11,2023-10-13,17900,Held,Summer music festival,Medium
+EV0289,C07,Marathon,2023-10-16,2023-10-16,8300,Held,City marathon,Medium
+EV0290,C08,Concert,2023-10-18,2023-10-18,37300,Held,Arena concert,High
+EV0291,C14,Conference,2023-10-23,2023-10-25,33700,Held,Logistics conference,Medium
+EV0292,C13,Music festival,2023-11-01,2023-11-04,43700,Held,Folk music festival,Medium
+EV0293,C06,Concert,2023-11-03,2023-11-04,30200,Held,Open-air concert,Very high
+EV0294,C03,Music festival,2023-11-04,2023-11-07,32500,Held,Folk music festival,Medium
+EV0295,C11,Conference,2023-11-06,2023-11-07,39400,Held,Tech conference,Medium
+EV0296,C04,Marathon,2023-11-10,2023-11-11,55100,Held,City marathon,High
+EV0297,C01,Conference,2023-11-13,2023-11-15,22000,Held,Tech conference,Medium
+EV0298,C01,Conference,2023-11-15,2023-11-17,25600,Held,Tech conference,High
+EV0299,C03,Concert,2023-11-22,2023-11-22,103100,Held,Arena concert,Very high
+EV0300,C05,Trade fair,2023-11-26,2023-11-30,20200,Held,Furniture trade fair,High
+EV0301,C06,Trade fair,2023-12-01,2023-12-04,43700,Held,Furniture trade fair,High
+EV0302,C01,Music festival,2023-12-05,2023-12-07,9600,Held,Indie music festival,High
+EV0303,C01,Sports match,2023-12-08,2023-12-08,6900,Held,International sports match,Medium
+EV0304,C05,Trade fair,2023-12-21,2023-12-23,40200,Held,Tourism trade fair,High
+EV0305,C07,Concert,2023-12-24,2023-12-25,18100,Held,Open-air concert,Very high
+EV0306,C04,Conference,2024-01-09,2024-01-11,59200,Held,Fintech conference,High
+EV0307,C10,Music festival,2024-01-14,2024-01-15,28400,Held,Folk music festival,Medium
+EV0308,C01,Music festival,2024-01-24,2024-01-27,9000,Held,Summer music festival,High
+EV0309,C13,Marathon,2024-02-02,2024-02-03,11000,Held,City marathon,Medium
+EV0310,C09,Conference,2024-02-25,2024-02-28,47200,Held,Energy conference,Medium
+EV0311,C13,Concert,2024-03-01,2024-03-02,33000,Held,Open-air concert,High
+EV0312,C12,Trade fair,2024-03-02,2024-03-05,45300,Held,Food trade fair,Medium
+EV0313,C11,Music festival,2024-03-03,2024-03-04,20200,Held,Jazz music festival,Medium
+EV0314,C08,Marathon,2024-03-11,2024-03-12,44300,Held,City marathon,High
+EV0315,C07,Conference,2024-03-12,2024-03-13,55600,Held,Tech conference,High
+EV0316,C11,Conference,2024-03-12,2024-03-14,32700,Held,Energy conference,Medium
+EV0317,C14,Music festival,2024-03-12,2024-03-14,65800,Held,Folk music festival,High
+EV0318,C14,Trade fair,2024-03-14,2024-03-18,75800,Held,Industrial trade fair,High
+EV0319,C14,Music festival,2024-03-17,2024-03-19,15500,Held,Electronic music festival,High
+EV0320,C08,Conference,2024-04-04,2024-04-05,40600,Held,Retail conference,Medium
+EV0321,C09,Music festival,2024-04-08,2024-04-10,49300,Held,Electronic music festival,High
+EV0322,C11,Concert,2024-04-11,2024-04-11,64000,Held,Open-air concert,High
+EV0323,C03,Conference,2024-04-13,2024-04-16,32700,Held,Tech conference,High
+EV0324,C04,Trade fair,2024-04-20,2024-04-23,73000,Held,Furniture trade fair,High
+EV0325,C14,Concert,2024-04-22,2024-04-22,22700,Held,Open-air concert,High
+EV0326,C12,Conference,2024-04-24,2024-04-26,45200,Held,Tech conference,High
+EV0327,C12,Conference,2024-04-27,2024-04-30,11700,Held,Tech conference,Medium
+EV0328,C06,Trade fair,2024-05-03,2024-05-06,34100,Held,Food trade fair,High
+EV0329,C10,Conference,2024-05-03,2024-05-04,31500,Held,Fintech conference,High
+EV0330,C11,Marathon,2024-05-04,2024-05-04,24600,Held,City marathon,High
+EV0331,C04,Conference,2024-05-06,2024-05-09,54400,Held,Retail conference,High
+EV0332,C14,Trade fair,2024-05-14,2024-05-17,18200,Held,Auto trade fair,Medium
+EV0333,C13,Concert,2024-05-15,2024-05-16,46200,Held,Arena concert,High
+EV0334,C02,Concert,2024-05-17,2024-05-18,41400,Held,Stadium concert,Medium
+EV0335,C08,Conference,2024-05-18,2024-05-21,13200,Held,Medical conference,High
+EV0336,C13,Conference,2024-05-23,2024-05-24,49100,Held,Retail conference,Medium
+EV0337,C06,Conference,2024-05-27,2024-05-28,43900,Held,Tech conference,Medium
+EV0338,C15,Conference,2024-05-27,2024-05-29,33900,Held,AI conference,Medium
+EV0339,C12,Concert,2024-06-04,2024-06-05,39400,Held,Arena concert,Very high
+EV0340,C07,Sports match,2024-06-07,2024-06-07,11000,Held,International sports match,High
+EV0341,C06,Conference,2024-06-11,2024-06-12,58300,Held,Retail conference,High
+EV0342,C01,Music festival,2024-06-12,2024-06-15,17800,Held,Folk music festival,High
+EV0343,C09,Sports match,2024-06-14,2024-06-14,66000,Held,International sports match,Very high
+EV0344,C03,Music festival,2024-06-15,2024-06-16,37000,Held,Electronic music festival,Medium
+EV0345,C08,Sports match,2024-06-15,2024-06-15,70000,Held,International sports match,High
+EV0346,C03,Conference,2024-06-16,2024-06-17,61800,Held,Medical conference,High
+EV0347,C11,Marathon,2024-06-19,2024-06-20,40200,Held,City marathon,High
+EV0348,C12,Sports match,2024-06-20,2024-06-20,23700,Held,International sports match,Medium
+EV0349,C10,Concert,2024-06-24,2024-06-25,77500,Held,Arena concert,Very high
+EV0350,C09,Sports match,2024-06-25,2024-06-25,66000,Held,International sports match,Very high
+EV0351,C08,Sports match,2024-06-29,2024-06-29,70000,Held,International sports match,Very high
+EV0352,C09,Sports match,2024-07-09,2024-07-09,66000,Held,International sports match,Very high
+EV0353,C09,Conference,2024-07-11,2024-07-12,57000,Held,Fintech conference,High
+EV0354,C15,Concert,2024-07-13,2024-07-13,21000,Held,Stadium concert,Medium
+EV0355,C08,Sports match,2024-07-14,2024-07-14,72000,Held,International sports match,Very high
+EV0356,C15,Concert,2024-07-19,2024-07-19,36900,Held,Open-air concert,Very high
+EV0357,C14,Conference,2024-07-20,2024-07-22,45400,Held,Energy conference,High
+EV0358,C12,Sports match,2024-07-26,2024-08-11,900000,Held,International sports match,Very high
+EV0359,C09,Trade fair,2024-08-04,2024-08-07,21300,Held,Industrial trade fair,Medium
+EV0360,C12,Concert,2024-08-04,2024-08-04,21100,Held,Stadium concert,High
+EV0361,C12,Conference,2024-08-18,2024-08-21,40800,Held,Retail conference,Medium
+EV0362,C05,Concert,2024-08-22,2024-08-22,57000,Held,Arena concert,High
+EV0363,C06,Music festival,2024-08-23,2024-08-25,33000,Held,Indie music festival,Medium
+EV0364,C05,Conference,2024-08-26,2024-08-28,30900,Held,Medical conference,Medium
+EV0365,C05,Conference,2024-09-11,2024-09-14,46200,Held,Energy conference,Medium
+EV0366,C13,Music festival,2024-09-12,2024-09-13,63500,Held,Summer music festival,High
+EV0367,C06,Conference,2024-09-13,2024-09-16,27700,Held,Logistics conference,High
+EV0368,C09,Conference,2024-09-14,2024-09-15,31300,Held,Tech conference,Medium
+EV0369,C14,Conference,2024-09-21,2024-09-22,56300,Held,Tech conference,High
+EV0370,C07,Music festival,2024-09-23,2024-09-25,7500,Held,Electronic music festival,Medium
+EV0371,C09,Conference,2024-10-02,2024-10-05,62600,Held,Tech conference,High
+EV0372,C11,Trade fair,2024-10-07,2024-10-11,25200,Held,Fashion trade fair,High
+EV0373,C04,Sports match,2024-10-08,2024-10-08,49300,Held,International sports match,High
+EV0374,C11,Concert,2024-10-12,2024-10-13,23100,Held,Arena concert,Very high
+EV0375,C09,Conference,2024-10-13,2024-10-16,40000,Held,Tech conference,Medium
+EV0376,C06,Conference,2024-10-15,2024-10-18,10400,Held,Logistics conference,Medium
+EV0377,C05,Conference,2024-10-20,2024-10-22,26600,Held,Medical conference,High
+EV0378,C10,Music festival,2024-10-25,2024-10-27,28500,Held,Folk music festival,High
+EV0379,C05,Trade fair,2024-11-01,2024-11-03,46400,Held,Industrial trade fair,High
+EV0380,C09,Conference,2024-11-02,2024-11-05,35600,Held,Energy conference,High
+EV0381,C11,Concert,2024-11-10,2024-11-10,55600,Held,Open-air concert,High
+EV0382,C01,Conference,2024-11-14,2024-11-15,30300,Held,Energy conference,High
+EV0383,C08,Concert,2024-11-16,2024-11-17,73400,Held,Stadium concert,High
+EV0384,C11,Sports match,2024-11-16,2024-11-16,21200,Held,International sports match,Medium
+EV0385,C14,Concert,2024-11-17,2024-11-17,71500,Held,Open-air concert,High
+EV0386,C02,Conference,2024-11-20,2024-11-21,31400,Held,Energy conference,High
+EV0387,C06,Concert,2024-12-01,2024-12-02,16200,Held,Open-air concert,High
+EV0388,C08,Music festival,2024-12-01,2024-12-04,16200,Held,Indie music festival,Medium
+EV0389,C04,Conference,2024-12-04,2024-12-05,19400,Held,Energy conference,High
+EV0390,C05,Conference,2024-12-07,2024-12-10,31100,Held,Tech conference,Medium
+EV0391,C04,Sports match,2024-12-11,2024-12-11,82600,Held,International sports match,High
+EV0392,C11,Music festival,2024-12-13,2024-12-15,30400,Held,Jazz music festival,Medium
+EV0393,C01,Sports match,2024-12-17,2024-12-17,67800,Held,International sports match,High
+EV0394,C11,Conference,2024-12-17,2024-12-18,49700,Held,Medical conference,Medium
+EV0395,C07,Concert,2024-12-20,2024-12-21,88400,Held,Stadium concert,Very high
+EV0396,C01,Sports match,2024-12-21,2024-12-21,39400,Held,International sports match,High
+EV0397,C09,Concert,2024-12-21,2024-12-22,70600,Held,Open-air concert,Very high
+EV0398,C08,Trade fair,2024-12-23,2024-12-27,28200,Held,Auto trade fair,High
+EV0399,C08,Trade fair,2025-01-13,2025-01-16,24400,Held,Industrial trade fair,High
+EV0400,C02,Music festival,2025-01-25,2025-01-26,48600,Held,Summer music festival,High
+EV0401,C04,Conference,2025-02-07,2025-02-10,26300,Held,AI conference,Medium
+EV0402,C09,Concert,2025-03-07,2025-03-07,81100,Held,Stadium concert,Very high
+EV0403,C05,Concert,2025-03-09,2025-03-09,99400,Held,Arena concert,Very high
+EV0404,C10,Concert,2025-03-10,2025-03-11,128000,Held,Arena concert,Very high
+EV0405,C11,Trade fair,2025-03-12,2025-03-14,24500,Held,Furniture trade fair,Medium
+EV0406,C06,Music festival,2025-03-14,2025-03-15,39400,Held,Electronic music festival,High
+EV0407,C12,Concert,2025-03-16,2025-03-16,30600,Held,Arena concert,High
+EV0408,C03,Sports match,2025-03-17,2025-03-17,65500,Held,International sports match,High
+EV0409,C04,Concert,2025-03-17,2025-03-18,11300,Held,Stadium concert,High
+EV0410,C08,Sports match,2025-03-25,2025-03-25,74500,Held,International sports match,High
+EV0411,C14,Music festival,2025-03-25,2025-03-28,9000,Held,Jazz music festival,Medium
+EV0412,C11,Sports match,2025-04-01,2025-04-01,23600,Held,International sports match,High
+EV0413,C03,Sports match,2025-04-04,2025-04-04,47500,Held,International sports match,High
+EV0414,C11,Conference,2025-04-06,2025-04-09,57000,Held,Energy conference,High
+EV0415,C07,Conference,2025-04-08,2025-04-10,54200,Held,Tech conference,High
+EV0416,C12,Trade fair,2025-04-09,2025-04-13,45600,Held,Food trade fair,Medium
+EV0417,C02,Trade fair,2025-04-13,2025-04-16,42700,Held,Furniture trade fair,Medium
+EV0418,C09,Music festival,2025-04-13,2025-04-15,24500,Held,Folk music festival,High
+EV0419,C06,Music festival,2025-04-20,2025-04-23,47000,Held,Summer music festival,High
+EV0420,C13,Trade fair,2025-04-27,2025-04-29,64900,Held,Furniture trade fair,High
+EV0421,C07,Marathon,2025-05-02,2025-05-03,8500,Held,City marathon,Medium
+EV0422,C14,Music festival,2025-05-11,2025-05-13,47800,Held,Folk music festival,High
+EV0423,C06,Concert,2025-05-15,2025-05-15,24300,Held,Stadium concert,High
+EV0424,C09,Music festival,2025-05-16,2025-05-17,45600,Held,Jazz music festival,High
+EV0425,C11,Music festival,2025-05-17,2025-05-18,9600,Held,Folk music festival,High
+EV0426,C06,Music festival,2025-05-18,2025-05-21,55100,Held,Indie music festival,High
+EV0427,C05,Concert,2025-05-19,2025-05-19,56200,Held,Arena concert,High
+EV0428,C12,Music festival,2025-05-21,2025-05-22,10800,Held,Summer music festival,Medium
+EV0429,C03,Concert,2025-05-23,2025-05-24,55600,Held,Stadium concert,Very high
+EV0430,C09,Conference,2025-05-23,2025-05-25,35500,Held,Tech conference,Medium
+EV0431,C14,Conference,2025-05-25,2025-05-28,10900,Held,Logistics conference,Medium
+EV0432,C13,Trade fair,2025-05-26,2025-05-29,30600,Held,Fashion trade fair,High
+EV0433,C08,Conference,2025-05-27,2025-05-28,31800,Held,AI conference,High
+EV0434,C04,Music festival,2025-06-01,2025-06-02,56500,Held,Electronic music festival,High
+EV0435,C10,Concert,2025-06-05,2025-06-05,47000,Held,Stadium concert,High
+EV0436,C09,Conference,2025-06-09,2025-06-12,24000,Held,Fintech conference,High
+EV0437,C14,Music festival,2025-06-10,2025-06-13,47300,Held,Folk music festival,Medium
+EV0438,C11,Conference,2025-06-14,2025-06-16,39300,Held,AI conference,Medium
+EV0439,C15,Concert,2025-06-17,2025-06-18,48300,Held,Arena concert,High
+EV0440,C12,Concert,2025-06-21,2025-06-21,56500,Held,Stadium concert,High
+EV0441,C03,Music festival,2025-06-22,2025-06-25,8000,Held,Folk music festival,Medium
+EV0442,C03,Music festival,2025-07-04,2025-07-06,250000,Held,Electronic music festival,Very high
+EV0443,C04,Music festival,2025-07-17,2025-07-18,20600,Held,Folk music festival,High
+EV0444,C10,Conference,2025-07-24,2025-07-27,16900,Held,Energy conference,Medium
+EV0445,C12,Concert,2025-08-03,2025-08-04,47500,Held,Stadium concert,High
+EV0446,C08,Conference,2025-08-04,2025-08-06,8000,Held,AI conference,High
+EV0447,C05,Sports match,2025-08-09,2025-08-09,40500,Held,International sports match,High
+EV0448,C07,Sports match,2025-08-12,2025-08-12,50500,Held,International sports match,High
+EV0449,C09,Conference,2025-08-17,2025-08-18,7300,Held,Energy conference,Medium
+EV0450,C03,Conference,2025-08-21,2025-08-24,61200,Held,Medical conference,High
+EV0451,C04,Music festival,2025-08-23,2025-08-26,11600,Held,Jazz music festival,Medium
+EV0452,C12,Conference,2025-08-25,2025-08-27,34400,Held,Fintech conference,Medium
+EV0453,C04,Trade fair,2025-08-27,2025-08-31,34800,Held,Auto trade fair,High
+EV0454,C11,Concert,2025-08-27,2025-08-28,71500,Held,Open-air concert,Very high
+EV0455,C12,Conference,2025-09-02,2025-09-05,30800,Held,Medical conference,Medium
+EV0456,C10,Concert,2025-09-04,2025-09-04,26200,Held,Stadium concert,Very high
+EV0457,C12,Conference,2025-09-07,2025-09-10,23900,Held,Fintech conference,Medium
+EV0458,C02,Sports match,2025-09-09,2025-09-09,9000,Held,International sports match,Medium
+EV0459,C04,Conference,2025-09-14,2025-09-16,21200,Held,Retail conference,Medium
+EV0460,C03,Sports match,2025-09-24,2025-09-24,21100,Held,International sports match,High
+EV0461,C04,Trade fair,2025-09-24,2025-09-28,30600,Held,Furniture trade fair,Medium
+EV0462,C08,Trade fair,2025-09-24,2025-09-27,23000,Held,Food trade fair,Medium
+EV0463,C13,Trade fair,2025-09-27,2025-09-30,43800,Held,Furniture trade fair,High
+EV0464,C11,Conference,2025-10-06,2025-10-09,9600,Held,Energy conference,Medium
+EV0465,C11,Concert,2025-10-07,2025-10-08,91100,Held,Open-air concert,Very high
+EV0466,C14,Conference,2025-10-12,2025-10-13,71900,Held,Fintech conference,High
+EV0467,C12,Trade fair,2025-10-14,2025-10-17,40600,Held,Auto trade fair,Medium
+EV0468,C08,Conference,2025-10-16,2025-10-17,32900,Held,Energy conference,High
+EV0469,C07,Marathon,2025-10-17,2025-10-17,5900,Held,City marathon,Medium
+EV0470,C09,Sports match,2025-10-19,2025-10-19,15900,Held,International sports match,Medium
+EV0471,C01,Trade fair,2025-10-20,2025-10-24,35800,Held,Food trade fair,Medium
+EV0472,C04,Music festival,2025-10-21,2025-10-24,11800,Held,Jazz music festival,High
+EV0473,C03,Concert,2025-10-22,2025-10-23,60700,Held,Stadium concert,High
+EV0474,C14,Sports match,2025-10-24,2025-10-24,11000,Held,International sports match,High
+EV0475,C09,Conference,2025-11-04,2025-11-07,26800,Held,Logistics conference,High
+EV0476,C01,Sports match,2025-11-05,2025-11-05,76700,Held,International sports match,High
+EV0477,C12,Concert,2025-11-08,2025-11-08,28000,Held,Arena concert,High
+EV0478,C14,Concert,2025-11-09,2025-11-09,14100,Held,Stadium concert,High
+EV0479,C06,Conference,2025-11-10,2025-11-12,35500,Held,Retail conference,Medium
+EV0480,C13,Music festival,2025-11-10,2025-11-11,16000,Held,Electronic music festival,Medium
+EV0481,C04,Concert,2025-11-13,2025-11-13,65000,Held,Stadium concert,High
+EV0482,C05,Sports match,2025-11-13,2025-11-13,19500,Held,International sports match,Medium
+EV0483,C06,Marathon,2025-11-13,2025-11-13,53400,Held,City marathon,High
+EV0484,C10,Sports match,2025-11-23,2025-11-23,35800,Held,International sports match,High
+EV0485,C13,Conference,2025-11-25,2025-11-27,57800,Held,AI conference,High
+EV0486,C05,Concert,2025-11-26,2025-11-26,16900,Held,Arena concert,High
+EV0487,C07,Music festival,2025-11-26,2025-11-29,21500,Held,Electronic music festival,Medium
+EV0488,C11,Concert,2025-12-02,2025-12-03,12600,Held,Arena concert,Very high
+EV0489,C13,Music festival,2025-12-07,2025-12-08,26800,Held,Jazz music festival,Medium
+EV0490,C11,Sports match,2025-12-13,2025-12-13,9100,Held,International sports match,High
+EV0491,C07,Conference,2025-12-23,2025-12-25,29100,Held,Retail conference,High

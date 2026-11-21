@@ -1,0 +1,7 @@
+rate_plan_id,rate_plan_name,refundable,price_factor,includes_breakfast,description,available_from
+RP1,Flexible,1,1.0,0,Free cancellation until 24h before arrival,2016-01-01
+RP2,Non-refundable,0,0.88,0,"Prepaid, no refund on cancellation",2016-01-01
+RP3,Breakfast included,1,1.1,1,Flexible rate with breakfast,2016-01-01
+RP4,Member rate,1,0.92,0,"Lumora Club members, direct channels only",2023-04-01
+RP5,Long stay (5+ nights),1,0.85,0,Discount for stays of 5 nights or more,2016-01-01
+RP6,Corporate,1,0.9,1,Negotiated company rate,2016-01-01
