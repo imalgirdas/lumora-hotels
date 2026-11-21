@@ -1,0 +1,8 @@
+channel_id,channel_name,channel_group,commission_pct,available_from
+CH1,Website,Direct,0.0,2016-01-01
+CH2,Mobile app,Direct,0.0,2023-04-01
+CH3,Phone / walk-in,Direct,0.0,2016-01-01
+CH4,BookNest (OTA),OTA,0.18,2016-01-01
+CH5,TripGlobe (OTA),OTA,0.15,2016-01-01
+CH6,Corporate travel agency,Corporate,0.08,2016-01-01
+CH7,Tour operator,Wholesale,0.22,2016-01-01
