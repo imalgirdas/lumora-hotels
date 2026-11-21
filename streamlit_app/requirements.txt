@@ -1,0 +1,5 @@
+streamlit>=1.50
+plotly>=6.0
+pandas>=2.1
+numpy>=1.26
+kaleido>=1.0       # only for export_figures.py

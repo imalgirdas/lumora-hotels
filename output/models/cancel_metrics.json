@@ -1,0 +1,10 @@
+{
+  "train_rows": 228825,
+  "test_rows": 76473,
+  "test_cancel_rate": 0.15648660311482485,
+  "auc_gradient_boosting": 0.7713348894372556,
+  "auc_logistic_baseline": 0.7710698693257136,
+  "pr_auc_gradient_boosting": 0.36869095439804705,
+  "brier_gradient_boosting": 0.11486648804867129,
+  "share_of_cancels_in_top20pct_risk": 0.47112893791259297
+}

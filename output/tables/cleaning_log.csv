@@ -1,0 +1,22 @@
+table,step,rows_affected
+guests,home_country standardised to ISO-2 upper case,7048
+guests,impossible birth_year set to missing,140
+guests,birth_year missing (left missing),16571
+guests,duplicate profiles merged (same email_hash),2782
+bookings,exact duplicate rows removed,1500
+bookings,guest_id remapped to merged profile,4250
+bookings,market_segment trimmed / title case,6106
+bookings,checkin/checkout swapped back,120
+bookings,adults = 0 set to 1,70
+bookings,adr_eur entered in cents divided by 100,45
+bookings,adr_eur = 0 imputed (room type x plan x month median),260
+stay_charges,local currency converted to EUR with fx_rates,118062
+stay_charges,negative Adjustment rows kept (flag is_adjustment),1894
+competitor_rates,local currency converted to EUR with fx_rates,6849
+competitor_rates,10x spikes set to missing,60
+competitor_rates,missing rates interpolated per hotel,547
+reviews,TripGlobe 2021-2022 scores rescaled from 1-5 to 1-10,7954
+reviews,review_datetime before stay replaced by checkout + median delay,300
+rate_quotes,"bot sessions removed (50+ quotes, < 30 s apart)",9457
+staffing_monthly,missing hotel-months added and interpolated,12
+local_events,duplicate events removed,8
